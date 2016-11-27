@@ -1,0 +1,20 @@
+h1,h2,h3,h4,h5,h6{
+	text-align: center;;
+}
+.header{
+	height:50px;
+}
+.yoda-img{
+	float: left;
+	height: 50px;
+}
+.header>h1{
+	line-height: 50px;
+}
+.wait{
+	/*text-align: center;*/
+	visibility: hidden;
+}
+.footer{
+	text-align: center;
+}

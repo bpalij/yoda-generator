@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yoda speech generator</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">   		
+   		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+   		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<img src="index.jpeg" alt="Yoda" class="yoda-img">
+				<h1>Yoda speech generator</h1>		
+			</div>
+			<div class="wait">
+				<i class="fa fa-spinner fa-pulse fa-lg"></i> <big>Please wait</big>
+			</div>
+			<!-- <div class="wait">
+				<i class="fa fa-spinner fa-pulse fa-5x"></i> Please wait
+			</div> -->
+			<form action="">
+				<div class="form-group">
+					<label for="input-field">Input:</label>
+					<input type="text" class="form-control" id="input-field" placeholder="Write your text here">
+					<button type="reset" class="btn btn-warning" id="rst-btn">Reset form</button>
+					<button type="button" class="btn btn-success" id="start-button" onclick="generate">Generate!</button>
+				</div>	
+			</form>
+		<p><b>Output:</b></p>
+		<p id="output-string"></p>
+		<br>
+		<br>
+		<p class="footer"><b>Created by Bogdan Paliy</p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+		<script src="index.js"></script>
+	</body>
+</html>
