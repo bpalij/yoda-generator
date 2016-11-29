@@ -10,8 +10,10 @@
 		<div class="container">
 			<div class="header">
 				<img src="index.jpeg" alt="Yoda" class="yoda-img">
-				<h1>Yoda speech generator</h1>		
+				<h1>Yoda speech generator</h1>	
 			</div>
+			<br>
+			<h3>Only latin and cyrilyc alphabet is supported</h3>
 			<div class="wait">
 				<big>Please wait</big>
 			</div>
@@ -23,7 +25,7 @@
 					<label for="input-field">Input:</label>
 					<input type="text" class="form-control" id="input-field" placeholder="Write your text here" required>
 					<button type="reset" class="btn btn-warning" id="rst-btn">Reset form</button>
-					<button type="button" class="btn btn-success" id="start-button" onclick="generate">Generate!</button>
+					<button type="button" class="btn btn-success" id="start-button" onclick="generate()">Generate!</button>
 				</div>	
 			</form>
 		<p><b>Output:</b></p>
